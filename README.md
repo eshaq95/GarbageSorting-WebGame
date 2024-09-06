@@ -1,40 +1,75 @@
-# Environmental Education Game Website
+# Environmental Education Game Website (Garbage Sorting)
 
 ## Project Overview
-This project is an interactive web-based game designed to teach children about waste sorting and environmental sustainability. Developed as a team project, it uses HTML5, CSS, and JavaScript to create an engaging and educational experience.
-
-## Key Features
-- Interactive game interface for waste sorting
-- Educational content about environmental sustainability
-- Progress tracking and scoring system
-- Responsive design for various devices
+This project is an interactive web-based game designed to educate users about garbage sorting and environmental sustainability. It combines a user-friendly frontend interface with a robust backend system, providing an engaging platform for learning about waste management.
 
 ## Technologies Used
-- Frontend: HTML5, CSS, JavaScript
-- Backend: Spring Boot, SQL
-- Database: MySQL
+- Frontend: HTML (2.3%), CSS (3.1%), JavaScript (94.5%)
+- Backend: Java (0.1%), Spring Boot
+- Database: MyBatis (ORM)
+- Build Tool: Maven
 - Version Control: Git
-- Project Management: Jira (Agile methodology)
+- CI/CD: Jenkins
+
+## Project Structure
+- `.mvn/wrapper/`: Maven wrapper for build automation
+- `frontend/`: Contains the frontend code of the application
+  - HTML files (home.html, upload.html, login.html)
+  - CSS files (styles.css, main.css, style.css)
+  - JavaScript files (jquery.pure.tooltips.js, spop.min.js)
+  - Image assets (logo.jpg, backk.jpg, binss.png, etc.)
+- `src/`: Source code directory
+  - `main/java/`: Java backend code
+    - Controllers (e.g., UserController.java)
+    - Services (e.g., UserService.java)
+    - Models (e.g., User.java)
+    - Data mappers (e.g., UserMapper.java)
+  - `main/resources/`: Configuration files
+    - `application.properties`
+  - `test/java/`: Unit tests
+- `Jenkinsfile`: Defines the Jenkins pipeline for CI/CD
+- `pom.xml`: Maven project configuration file
+
+## Key Features
+1. User Authentication:
+   - Login functionality for personalized experiences
+   - User registration and account management
+
+2. Garbage Sorting Game:
+   - Interactive interface for learning about waste classification
+   - Image upload functionality for identifying and sorting garbage items
+
+3. Educational Content:
+   - Informative resources about environmental sustainability
+   - Visual aids and icons representing different types of waste
+
+4. Multimedia Experience:
+   - Background music and sound effects (bgm1.mp3, bgm2.mp3, 12780.wav)
+   - Rich graphical interface with various image assets
+
+5. Responsive Design:
+   - User-friendly layout adaptable to different devices
+
+## Setup and Installation
+[Provide step-by-step instructions on how to set up and run the project locally]
 
 ## Team Collaboration
 This project was developed collaboratively, utilizing:
-- Git for version control, enabling efficient code sharing and version management
-- Jira for implementing Agile workflows, including sprint planning, task assignment, and progress tracking
+- Git for version control
+- Jenkins for continuous integration and deployment
+- Agile methodologies for project management
 
-## Game Mechanics
-
-
-## Setup and Installation
-
-
-## Project Structure
-
+## Testing
+- Unit tests for backend services and controllers (UserServiceTest.java, UserControllerTest.java)
+- [Add information about any frontend or integration tests]
 
 ## Future Enhancements
-- Add more levels with increasing difficulty
-- Implement multiplayer functionality
-- Create a mobile app version of the game
+- Extend game to include all aspects of sustainability 
 
 ## Contributors
 - Eshaq Rahmani
-- Students in Team Project
+- Students in Team Project with me
+
+
+## Acknowledgments
+- Forked from siazon/GarbageSorting (Team project student's GitHub)
