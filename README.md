@@ -50,8 +50,6 @@ This project is an interactive web-based game designed to educate users about ga
 5. Responsive Design:
    - User-friendly layout adaptable to different devices
 
-## Setup and Installation
-[Provide step-by-step instructions on how to set up and run the project locally]
 
 ## Team Collaboration
 This project was developed collaboratively, utilizing:
